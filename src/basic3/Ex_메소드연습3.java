@@ -1,7 +1,5 @@
 package basic3;
 
-import java.util.Scanner;
-
 public class Ex_메소드연습3 {
 //	(문제 3) 
 //	   multiple 메소드 만들기
@@ -17,15 +15,32 @@ public class Ex_메소드연습3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Scanner input = new Scanner(System.in);
-		
-		
-	
-			
-		
-		
+		multiple(2,3);
+		multiple(4,'ㅋ');
+		multiple(2,3,'ㅋ');
 
 	}
+	static void multiple(int a, int b) {
+	 System.out.println(a*b);
+	}
+	static void multiple(int a, char c) {
+		for(int i = 0; i<a; i++) {
+			System.out.print(c);
+		}System.out.println();
+		
+	}
+	static void multiple(int a, int b, char c) {
+		char arr [][] = new char [a][b];
+		for(int i = 0; i<a; i++) {
+			for(int j = 0; j<b;j++) {
+				arr[i][j] = c;
+				System.out.print(arr[i][j]);
+			}
+			System.out.println();
+		}
+
+		
+	}
+
 
 }
