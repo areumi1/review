@@ -58,7 +58,8 @@ public class Ex02_반복문구분 {
 			}
 
 			System.out.println("반복을 종료하시겠습니까?(Y)");
-			input.nextLine();
+			input.nextLine();	
+			//엔터 친거를 읽으려고 씀 next(), nextInt() 후에 사용. // 밑에 적인 인풋을 정상적으로 읽을려면 위에 적인 인풋값 엔터에서 엔터를 처리해야해서 사용.
 			String answer = input.nextLine();
 			if(answer.equalsIgnoreCase("Y")) break;
 			
