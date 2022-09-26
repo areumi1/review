@@ -12,6 +12,7 @@ class aArrayListEx1
 			System.out.println(list.get(i));
 		}
 		
+		
 	}
 
 	static ArrayList dataSet()

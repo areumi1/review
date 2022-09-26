@@ -26,7 +26,7 @@ public class aArrayListEx2 {
 		
 		Collections.sort(list);
 		System.out.println(list);
-		// 방 정렬 // 알파벳 순서
+		// 방 정렬 // 순서대로
 		
 		
 		
