@@ -24,6 +24,6 @@ public class bHashSetLottoEx
 	// 순서를 지정하지 않을 때 사용.
 	// 중복되면 중복된 수만큼 수가 줄어서 나온다.
 	// for문이 아닌 while문으로 6자리가 나와야 출력되게 설정
-	// Collections.sort// sort는 list만 사용가능  // 방정렬
+	// Collections.sort// sort는 list만 사용가능
 	
 }
