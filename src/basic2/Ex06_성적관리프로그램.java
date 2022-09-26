@@ -13,7 +13,7 @@ public class Ex06_성적관리프로그램 {
 		
 		Scanner input = new Scanner(System.in);
 		for(int i=0; i<sexual.length; i++) {
-			System.out.println(i +"번 학생의 국어,영어,수학 점수를 입력해 주세요(ex. 10/20/30)");
+			System.out.println(i+1 +"번 학생의 국어,영어,수학 점수를 입력해 주세요(ex. 10/20/30)");
 			String inputData = input.nextLine();
 			StringTokenizer st = new StringTokenizer(inputData, "/");
 			String score = st.nextToken();
