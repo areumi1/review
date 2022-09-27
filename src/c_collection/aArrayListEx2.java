@@ -50,6 +50,6 @@ public class aArrayListEx2 {
 	}
 	// ArrayList 엔 자동으로 toString 이 생략되어있음.
 	// get 함수는 리턴값을 맞출수 없으므로 무조건 Object 형으로 자료를 보내면
-	// 직접 사용하고자하는 형으로 형변환을 해야한다.
+	// 직접 사용하고자하는 형으로 형변환을 해야한다
 	
 }
